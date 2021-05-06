@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Крестики-нолики</title>
+	<title>Tic-tac-toe</title>
+	<link rel="icon" type="image/png" href="static/images/favicon.png">
 	<link rel="stylesheet" href="static/css/style.css" />
 	<script src="/static/scripts/jquery-3.6.0.min.js"></script>
 	<script src="/static/scripts/script.js"></script>
@@ -12,8 +13,8 @@
 <body>
 	<div class="game">
 		<div class="header">
-			Крестики-нолики
-			<div class="turn">Ход игрока X</div>
+			Tic-tac-toe
+			<div class="turn">Player X's turn</div>
 		</div>
 		<div class="grid-container">
 			<button id="0" class="grid-element"></button>
@@ -27,7 +28,7 @@
 			<button id="8" class="grid-element"></button>
 			<div class="win-screen">
 				<div class="winner"></div>
-				<button class="reset" id="r">Заново?</button>
+				<button class="reset" id="r">Again?</button>
 			</div>
 		</div>
 	</div>
