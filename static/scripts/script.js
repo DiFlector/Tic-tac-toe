@@ -37,7 +37,7 @@ $(document).ready(function () {
 				turns = 0;
 				return;
 			}
-			turn = turn === 'X' ? '0' : 'X';
+			turn = turn === 'X' ? 'O' : 'X';
 			$('.turn').html('Player ' + turn + "'s turn");
 		} else {
 			for (let index = 0; index < board.length; index++) {
